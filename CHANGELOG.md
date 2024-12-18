@@ -1,5 +1,5 @@
 
-## [2.1.0]
+## [2.2.0]
 - updated flutter sdk 3.0.0 to 4.0.0 
 - Added Wasm support using get: ^5.0.0-release-candidate-9.2.1
 
