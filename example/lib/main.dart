@@ -24,11 +24,14 @@ class App extends StatelessWidget {
         theme: controller.theme,
         home: Scaffold(
           appBar: AppBar(title: Text("Get Storage")),
-          body: Center(
-            child: SwitchListTile(
-              value: controller.isDark,
-              title: Text("Touch to change ThemeMode"),
-              onChanged: controller.changeTheme,
+          body: Container(
+            color: Colors.red,
+            child: Center(
+              child: SwitchListTile(
+                value: controller.isDark,
+                title: Text("Touch to change ThemeMode"),
+                onChanged: controller.changeTheme,
+              ),
             ),
           ),
         ),
