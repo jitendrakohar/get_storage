@@ -13,7 +13,7 @@ class StorageImpl {
   final String fileName;
 
   ValueStorage<Map<String, dynamic>> subject =
-  ValueStorage<Map<String, dynamic>>(<String, dynamic>{});
+      ValueStorage<Map<String, dynamic>>(<String, dynamic>{});
 
   void clear() {
     localStorage.removeItem(fileName);
@@ -84,7 +84,7 @@ class StorageImpl {
       // If key is null, handle it accordingly (e.g., log a warning)
       if (key == null) {
         print("Warning: localStorage key at index $i is null.");
-        continue;  // Skip this iteration, or you could break if needed
+        continue; // Skip this iteration, or you could break if needed
       }
 
       // Now key is non-null, safely compare with fileName

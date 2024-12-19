@@ -1,6 +1,6 @@
-name: get_storage
-description: A fast, extra light and synchronous key-value storage written entirely in Dart
-version: 2.2.0
+name: get_storage_plus
+description: "An enhanced version of the Get_storage package with WASM and Flutter 3.0 support."
+version: 1.0.0-beta.1
 homepage: https://github.com/jonataslaw/get_storage
 
 environment:
@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
   get: ^5.0.0-release-candidate-9.2.1
   path_provider: ^2.0.1
-  #platform_info: ^3.0.0-nullsafety.1
+  web: ^1.1.0
 
 dev_dependencies:
   flutter_test:
