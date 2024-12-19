@@ -1,7 +1,7 @@
 name: get_storage_plus
 description: "An enhanced version of the Get_storage package with WASM and Flutter 3.0 support."
 version: 1.0.0-beta.1
-homepage: https://github.com/jonataslaw/get_storage
+homepage: https://github.com/jitendrakohar/get_storage
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
